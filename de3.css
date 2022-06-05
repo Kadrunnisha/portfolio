@@ -1,0 +1,39 @@
+div{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+body{
+    background-color: black;
+}
+h2{
+    color: rgb(226, 226, 226);
+    font-style: italic;
+}
+h3{
+    color: rgb(204, 204, 196);
+}
+img{
+    height: 50px;
+    width: 50px;
+
+
+}
+#f3{
+    margin-top: 40px;
+   
+}
+p{
+    margin-top: 4px;
+    color: rgb(235, 223, 88);
+   
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: yellow;
+}
+span{
+    color: aliceblue;
+}
+

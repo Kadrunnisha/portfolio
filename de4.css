@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+h1{
+    color: yellow;
+}
+strong{
+    color: white;
+}
+div{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+center{
+    margin-top: 100;
+}
+hr{
+    margin-bottom: 0px;
+}
+#x1{
+    background-color: rgb(38, 37, 37);
+    height: 250px;
+    width: 250px;
+    margin-top: 55px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: fixed;
+    box-shadow: 6px 6px 5px rgb(233, 212, 80);
+    color: aliceblue;
+    text-align: center;
+
+}
+#x2{
+    background-color:rgb(38, 37, 37);
+    height: 250px;
+    width:250px ;
+    margin-left:400px;
+    margin-top:55px;
+    position: fixed;
+    box-shadow: 6px 6px 5px rgb(233, 212, 80);
+    color: aliceblue;
+    text-align: center;
+}
+    
+    
+#x4{
+    background-color: rgb(38, 37, 37);
+    height: 250px;
+    width:250px ;
+    margin-top: 55px;
+    margin-left: 750px;
+    margin-right: 0px;
+    position: fixed;
+    box-shadow: 6px 6px 5px rgb(233, 212, 80);
+    text-align: center;
+    color: aliceblue;
+}
+#x5{
+    background-color: rgb(38, 37, 37);
+    height: 250px;
+    width: 250px;
+    margin-top: 330px;
+     margin-left: 25ex;
+     position: fixed;
+     box-shadow: 6px 6px 5px rgb(233, 212, 80);
+     text-align: center;
+     color: aliceblue;
+}
+#x6{
+    background-color: rgb(38, 37, 37);
+    height: 250px;
+    width: 250px;
+    margin-top: 330px;
+     margin-left: 85ex;
+     box-shadow: 6px 6px 5px rgb(233, 212, 80);
+     text-align: center;
+     color: aliceblue;
+     position: fixed;
+    
+}
+.c1{
+    font-size: 23px;
+    color: rgb(233, 212, 80);
+    
+}
