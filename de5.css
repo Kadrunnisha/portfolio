@@ -88,3 +88,283 @@ box-shadow: 6px 6px 5px rgb(233, 212, 80);
     color: rgba(234, 231, 28, 0.982);
     font-size: 30px;
 }
+@media screen and (max-width:720px){
+  div{
+    font-size: 10px;
+  }
+  #x1{
+    width: 270px;
+    margin-left: 15px;
+    /* background-color: aliceblue; */
+  }
+  table{
+    border-spacing: 35px;
+    font-size: 15px;
+    /* background-color: aliceblue; */
+    margin-left: 0px;
+  }
+  #x2{
+    height: 100px;
+    width: 120px;
+    font-size: 15px;
+    margin-left: 290px;
+    text-align: center;
+    
+  }
+ .x6{
+  font-size: 1px;
+ }
+ #x3{
+  height: 100px;
+  width: 120px;
+  font-size: 15px;
+  margin-left: 480px;
+  text-align: center;
+  
+}
+#x4{
+  height: 100px;
+  width: 120px;
+  font-size: 15px;
+  margin-left: 290px;
+  text-align: center;
+  
+}
+#x5{
+  height: 100px;
+  width: 120px;
+  font-size: 15px;
+  margin-left: 480px;
+  text-align: center;
+  
+}
+}
+@media screen and (max-width:900px){
+  div{
+    font-size: 10px;
+  }
+  #x1{
+    width: 270px;
+    margin-left: 25px;
+    /* background-color: aliceblue; */
+  }
+  table{
+    border-spacing: 35px;
+    font-size: 20px;
+    /* background-color: aliceblue; */
+    margin-left: 0px;
+  }
+  #x2{
+    height: 120px;
+    width: 140px;
+    font-size: 18px;
+    margin-left: 330px;
+    text-align: center;
+    
+  }
+ .x6{
+  font-size: 23px;
+ }
+ #x3{
+  height: 120px;
+  width: 140px;
+  font-size: 15px;
+  margin-left: 540px;
+  text-align: center;
+  
+}
+#x4{
+  height: 120px;
+  width: 140px;
+  font-size: 15px;
+  margin-left: 330px;
+  text-align: center;
+  
+}
+#x5{
+  height: 120px;
+  width: 140px;
+  font-size: 15px;
+  margin-left: 540px;
+  text-align: center;
+  
+}
+}
+@media screen and (max-width: 690px){
+  div{
+    font-size: 10px;
+    /* background-color: aliceblue; */
+  }
+  #x1{
+    width: 250px;
+    margin-left: 0px;
+    /* background-color: aliceblue; */
+  }
+  table{
+    border-spacing: 34px;
+    font-size: 15px;
+    /* background-color: aliceblue; */
+    margin-left: 0px;
+  }
+  #x2{
+    height: 110px;
+    width: 130px;
+    font-size: 18px;
+    margin-left: 230px;
+    text-align: center;
+    
+  }
+ .x6{
+  font-size: 15px;
+ }
+ #x3{
+  height: 110px;
+  width: 130px;
+  font-size: 15px;
+  margin-left: 420px;
+  text-align: center;
+  
+}
+#x4{
+  height: 110px;
+  width: 130px;
+  font-size: 15px;
+  margin-left: 230px;
+  text-align: center;
+  
+}
+#x5{
+  height: 110px;
+  width: 130px;
+  font-size: 15px;
+  margin-left: 420px;
+  text-align: center;
+  
+}
+}
+@media screen and (max-width:570px){
+  div{
+    font-size: 10px;
+    /* background-color: aliceblue;  */
+    padding-bottom: 5px;
+    margin-top: 20px;
+  }
+  #x1{
+    width: 210px;
+    margin-left: 0px;
+    /* background-color: aliceblue;  */
+    margin-top: 20px;
+  }
+  table{
+    border-spacing: 40px;
+    font-size: 15px;
+    /* background-color: aliceblue; */
+    margin-left: 0px;
+  }
+  #x2{
+    height: 100px;
+    width: 130px;
+    font-size: 15px;
+    margin-left: 240px;
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+ .x6{
+  font-size: 18px;
+ }
+ #x3{
+  height: 100px;
+  width: 130px;
+  font-size: 15px;
+  margin-left: 240px;
+  text-align: center;
+  margin-top: 240px;
+  
+}
+#x4{
+  height: 100px;
+  width: 130px;
+  font-size: 15px;
+  margin-left: 240px;
+  text-align: center;
+  margin-top: 370px;
+  
+}
+#x5{
+  height: 100px;
+  width: 130px;
+  font-size: 15px;
+  margin-left: 240px;
+  text-align: center;
+  margin-top: 500px;
+  
+}
+}
+@media screen and (max-width:380px){
+  div{
+    font-size: 10px;
+    background-color: aliceblue;  
+    padding-bottom: 5px;
+    margin-top: 15px;
+  }
+  #x1{
+    width: 100px;
+    margin-left: 0px;
+    /* background-color: aliceblue;  */
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+  table{
+    border-spacing: 5px;
+    font-size: 10px;
+    /* background-color: aliceblue; */
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  #x2{
+    height: 80px;
+    width: 90px;
+    font-size: 10px;
+    margin-left: 120px;
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+ .x6{
+  font-size: 14px;
+ }
+ #x3{
+  height: 80px;
+  width: 90px;
+  font-size: 10px;
+  margin-left: 120px;
+  text-align: center;
+  margin-top: 240px;
+  
+}
+#x4{
+  height: 80px;
+  width: 90px;
+  font-size: 10px;
+  margin-left: 120px;
+  text-align: center;
+  margin-top: 370px;
+  
+}
+#x5{
+  height: 80px;
+  width: 90px;
+  font-size: 10px;
+  margin-left: 120px;
+  text-align: center;
+  margin-top: 500px;
+  
+}
+}
+
+
+
+
+
+
