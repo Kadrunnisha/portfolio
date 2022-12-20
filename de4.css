@@ -7,7 +7,7 @@ h1{
 strong{
     color: white;
 }
-div{
+.d{
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -21,23 +21,25 @@ hr{
     background-color: rgb(38, 37, 37);
     height: 250px;
     width: 250px;
-    margin-top: 55px;
-    margin-left: 50px;
+    /* margin-top: 50px; */
+    /* margin-left: 50px;
     margin-bottom: 0px;
     margin-right: 0px;
-    position: fixed;
+    position: fixed; */
+    padding: 0px;
     box-shadow: 6px 6px 5px rgb(233, 212, 80);
     color: aliceblue;
     text-align: center;
 
 }
+
 #x2{
     background-color:rgb(38, 37, 37);
     height: 250px;
     width:250px ;
-    margin-left:400px;
-    margin-top:55px;
-    position: fixed;
+    /* margin-left:400px; */
+    /* margin-top:50px; */
+    /* position: fixed; */
     box-shadow: 6px 6px 5px rgb(233, 212, 80);
     color: aliceblue;
     text-align: center;
@@ -48,10 +50,10 @@ hr{
     background-color: rgb(38, 37, 37);
     height: 250px;
     width:250px ;
-    margin-top: 55px;
+    /* margin-top: 55px;
     margin-left: 750px;
-    margin-right: 0px;
-    position: fixed;
+    margin-right: 0px; */
+    /* position: fixed; */
     box-shadow: 6px 6px 5px rgb(233, 212, 80);
     text-align: center;
     color: aliceblue;
@@ -60,9 +62,11 @@ hr{
     background-color: rgb(38, 37, 37);
     height: 250px;
     width: 250px;
-    margin-top: 330px;
-     margin-left: 25ex;
-     position: fixed;
+   
+    margin-top: 0px;
+    /* margin-top: 330px;
+     margin-left: 25ex; */
+     /* position: fixed; */
      box-shadow: 6px 6px 5px rgb(233, 212, 80);
      text-align: center;
      color: aliceblue;
@@ -71,16 +75,136 @@ hr{
     background-color: rgb(38, 37, 37);
     height: 250px;
     width: 250px;
-    margin-top: 330px;
-     margin-left: 85ex;
+    margin-top: 0px;
+    /* margin-top: 330px;
+     margin-left: 85ex; */
      box-shadow: 6px 6px 5px rgb(233, 212, 80);
      text-align: center;
      color: aliceblue;
-     position: fixed;
+     /* position: fixed; */
     
 }
 .c1{
+    margin-bottom: 0px;
     font-size: 23px;
     color: rgb(233, 212, 80);
     
 }
+
+.box1{
+    margin-top: 2rem;
+   
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+  }
+  .box2{
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  @media screen and (max-width:1140px) {
+    .d{
+        font-size: 20px;
+      }
+       #x1 ,#x2, #x4,#x5,#x6{
+        height: 210px;
+        width: 200px;
+        /* background-color: aliceblue; */
+      }
+  }
+@media screen and (max-width:670px){
+    .d{
+        font-size:19px;
+
+    }
+    #x1 ,#x2, #x4,#x5,#x6{
+        height: 190px;
+        width: 170px; 
+         /* background-color: aliceblue; */
+      }
+      .c1{
+        font-size: 18px;
+      }
+}
+@media screen and (max-width:670px){
+    .d{
+        font-size:16px;
+
+    }
+    #x1 ,#x2, #x4,#x5,#x6{
+        height: 170px;
+        width: 150px; 
+         /* background-color: aliceblue; */
+      }
+      .c1{
+        font-size: 15px;
+      }
+      p{
+        font-size: 12px;
+      }
+}
+@media screen and (max-width:520px){
+    .d{
+        font-size:14px;
+
+    }
+    #x1 ,#x2, #x4,#x5,#x6{
+        height: 190px;
+        width: 210px; 
+         /* background-color: aliceblue; */
+         margin: 10px;
+      }
+      .box1{
+        margin-bottom: 0px;
+      }
+      .box2{
+        margin-top: 0px;
+      }
+      .box1,.box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .c1{
+        font-size: 19px;
+      }
+      p{
+        font-size: 17px;
+      }
+}
+@media screen and (max-width:400px){
+    .d{
+        font-size:14px;
+
+    }
+    #x1 ,#x2, #x4,#x5,#x6{
+        height: 170px;
+        width: 190px; 
+         /* background-color: aliceblue; */
+         margin: 10px;
+      }
+      .box1{
+        margin-bottom: 0px;
+      }
+      .box2{
+        margin-top: 0px;
+      }
+      .box1,.box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .c1{
+        font-size: 18px;
+      }
+      p{
+        font-size: 16px;
+      }
+}
+ 
+ 
+ 
