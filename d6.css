@@ -26,3 +26,12 @@ body{
     margin-bottom: 30px;
     font-style: oblique;
 }
+@media screen and (max-width:500px) {
+    #x1{
+    font-size: 30px;
+
+    }
+    .c1,.c2{
+        font-size: 18px;
+    }
+}
